@@ -3,7 +3,7 @@ const express       = require('express');
 const mongoose      = require('mongoose');
 
 const authRoutes    = require('./routes/auth');
-const personaRoutes = require('./routes/persona');
+const personRoutes = require('./routes/person');
 
 const app = express();
 app.use(express.json()); // Middleware per leggere JSON nel body
